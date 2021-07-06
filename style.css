@@ -4,7 +4,7 @@
  .blue-color{
      color: blue;
  }
- section{
+  section{
      display: flex;
      margin-bottom: 120px;
  }
@@ -16,6 +16,7 @@
  }
  .half-width img{
      width: 50%;
+     box-shadow: cadetblue;
  }
  .link-button{
      text-decoration: none;
@@ -26,12 +27,9 @@
      font-weight: 700;
 
  }
- .food-work{
-    background-color: lawngreen;
-     background-image: url(images/top-banner.png);
-     background-repeat: no-repeat;
-     
-     
 
-    
- }
+ .food-work{
+    position: relative; 
+    background:linear-gradient( rgba(250, 234, 234, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
