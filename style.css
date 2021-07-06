@@ -33,3 +33,11 @@
     background:linear-gradient( rgba(250, 234, 234, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+
+.network{
+    text-align: center;
+    color: dimgray;
+}
+    .jhonkor{
+        color: gray;
+    }
